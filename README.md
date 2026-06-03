@@ -1,23 +1,23 @@
 # ml-training-pipeline
 
-A minimal training pipeline for reproducible machine learning experiments.
+A minimal machine learning training pipeline for reproducible experiments.
 
 ## Overview
 
-This repository is intended for running small training experiments in a structured way.
+This repository provides a small, structured workflow for running training experiments.
 
-It includes:
-- a configurable training script
-- a tiny synthetic dataset
+It focuses on:
+- configurable training parameters
+- simple dataset handling
 - runtime logging
-- a simple benchmark flow
+- reproducible experiment structure
 
-## Goals
+## Key features
 
-- keep experiments reproducible
-- separate config from code
-- track runtime and training metrics
-- create a base pipeline for larger experiments later
+- lightweight training script
+- small synthetic dataset
+- clean separation between docs, data, and source code
+- easy-to-follow training flow
 
 ## Repository layout
 
@@ -43,6 +43,10 @@ ml-training-pipeline/
 python src/train.py --epochs 3 --lr 0.01 --batch-size 32
 ```
 
-## Notes
+## Why this project exists
 
-This repo is intentionally small so the training flow is easy to follow.
+This repository is intended as a foundation for structured ML experiment workflows.
+
+## License
+
+MIT
